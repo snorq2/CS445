@@ -17,6 +17,7 @@ mnist_train_values = mnist_train[:, 0]
 # for i in range(1,len(mnist_train))
 print(len(mnist_train))
 print(len(mnist_test))
-
+print(len(mnist_train_data))
+print(len(mnist_train_values))
 
 print('done loading')
